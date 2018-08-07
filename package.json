@@ -4,7 +4,8 @@
   "description": "A sample Node.js app using Express 4 built with wercker",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "node -v"
   },
   "dependencies": {
     "express": "~4.9.x"
