@@ -3,3 +3,8 @@ node_js:
  - "node"
 env:
   - MY_VAR=EverythignIsAwesome
+deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU_API_KEY
+    app: "ucc-frontend2"
