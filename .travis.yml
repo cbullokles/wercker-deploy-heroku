@@ -5,6 +5,5 @@ env:
   - MY_VAR=EverythignIsAwesome
 deploy:
   provider: heroku
-  api_key:
-    secure: $HEROKU_API_KEY
-    app: ucc-frontend2
+  api_key: $HEROKU_API_KEY
+  app: ucc-frontend2
